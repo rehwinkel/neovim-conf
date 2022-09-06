@@ -107,6 +107,7 @@ require("lspconfig").rust_analyzer.setup({
 
 vim.api.nvim_command("set number relativenumber")
 vim.api.nvim_command("set tabstop=4 shiftwidth=4")
+vim.api.nvim_command("set whichwrap+=h,l")
 
 vim.o.termguicolors = true
 vim.api.nvim_command("set t_8f=^[[38;2;%lu;%lu;%lum")
